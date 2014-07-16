@@ -34,7 +34,7 @@ $content = '<!DOCTYPE HTML>
 				<!-- Inner -->
 					<div class="inner">
 						<header>
-							<h1><a href="'.$lang.'-index.html" id="logo">Machinecoin</a></h1>
+							<h1><a href="index.html" id="logo">Machinecoin</a></h1>
 						</header>
 					</div>
 				
@@ -55,7 +55,7 @@ $content = '<!DOCTYPE HTML>
 						<div class="12u skel-cell-important" id="content">
 							<article id="main" class="special">
 								<header>
-									<h2><a href="paper-wallets.html">Paper-Wallets</a></h2>
+									<h2><a href="'.$linkname.'">'.$paper_wallet_text.'</a></h2>
 									<span class="byline">
 										'.$paper_wallet.'
 									</span>

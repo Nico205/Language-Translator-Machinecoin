@@ -32,6 +32,8 @@ $trans['en']['irc'] = 'Talk to other Machinecoin members on IRC just for fun or 
 
 $trans['en']['forum'] = 'Create or take part in diskussions related to Machinecoin in a forum.'; // Create or take part in diskussions related to Machinecoin in a forum.
 
+$trans['en']['installation_text'] = 'Installation'; // Installation 
+
 $trans['en']['installation'] = 'Get your machine up and running. '; // Get your machine up and running. 
 
 

@@ -108,13 +108,16 @@ $faucet_text = $trans[$lang]['faucet_text'];
 $paper_wallet_text = $trans[$lang]['paper_wallet_text'];
 $irc_text = $trans[$lang]['irc_text'];
 $forum_text = $trans[$lang]['forum_text'];
+$installation_text = $trans[$lang]['installation_text'];
 
 if ($template == "all") {
 
 foreach(glob('./template/*.php') as $template){
+	$linkname = "";
 	$filename = basename($template,'.php');
 	$file = substr($filename, 9);
 	require('./template/template-'. $file .'.php');
+	$linkname = $lang.'-'.$file.'.html';
 	if($file == "index"){
 	touch('./_site/'. $lang .'/'. $file .'.html');
 	file_put_contents('./_site/'. $lang .'/'.$file .'.html', $content);
