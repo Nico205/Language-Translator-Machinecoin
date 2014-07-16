@@ -10,7 +10,7 @@ If everthing working correcly there should be no output in the terminal but the 
 
 
 
-This script is free-to-use so everybody can port this to their own website without asking me for permission. It would be nice if you can sent me your website as a example for other users.
+**This script is free-to-use so everybody can port this to their own website without asking me for permission. It would be nice if you can sent me your website as a example for other users.**
 
 
 
